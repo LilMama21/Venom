@@ -1,4 +1,5 @@
 body {
+  background-color: #14131a;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
@@ -78,6 +79,10 @@ body {
   right: 0;
 }
 .blood {
+  background: url("../image/blood.png") no-repeat top right,
+    #14131a url("../image/background.jpg") no-repeat center center / 100%;
+}
+.primary--bg {
   background: #14131a url("../image/background.jpg") no-repeat center center /
     100%;
 }
