@@ -78,6 +78,86 @@ body {
   right: 0;
 }
 .blood {
-  background: url("../image/blood.png") no-repeat top right,
-    #14131a url("../image/background.jpg") no-repeat center center / 100%;
+  background: #14131a url("../image/background.jpg") no-repeat center center /
+    100%;
+}
+.content {
+  display: flex;
+}
+.col {
+  flex-basis: 50%;
+}
+.col--title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 20px;
+}
+.col--text {
+  min-width: 423px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+.col--subtitle {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+.content .list {
+  list-style: none;
+  padding: 0;
+}
+.list--item {
+  line-height: 1.5;
+}
+.column00 {
+  column-count: 2;
+  column-gap: 20px;
+  max-width: 320px;
+}
+.content .trailer {
+  width: 356px;
+  height: 205px;
+  background: url(../image/trailer.jpg) no-repeat center / 100%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.trailer .play {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+.trailer .play--icon {
+  transform: translate(1xp, 2px);
+}
+.poster--wrapper {
+  display: flex;
+  align-items: start;
+}
+.poster--wrapper {
+  display: flex;
+  align-items: start;
+}
+.poster {
+  width: 362px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.poster--wrapper .col--subtitle {
+  margin-bottom: 5px;
+}
+.poster--wrapper .list {
+  margin: 0;
+  margin-bottom: 20px;
 }
